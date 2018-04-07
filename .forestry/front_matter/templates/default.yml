@@ -1,0 +1,45 @@
+---
+hide_body: false
+fields:
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
+- name: slug
+  label: Slug
+  type: text
+  hidden: false
+  default: post-title
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default:
+  - tag1
+  - tag2
+- name: image
+  label: Image
+  type: text
+  hidden: false
+  default: ''
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: share
+  label: Share
+  type: boolean
+  hidden: false
+  default: true
+- name: menu
+  label: Menu
+  type: text
+  hidden: true
+  default: ''
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: ''
